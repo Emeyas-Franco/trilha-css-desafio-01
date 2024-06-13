@@ -1,6 +1,5 @@
 * {
     margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
     font-family: raleway, Arial, Helvetica, sans-serif;
 }
@@ -9,10 +8,9 @@ html, body {
     color: white;
 }
 .banner {
-    display: flex;
-    height: 605px;
-    background-image: url(../images/banner.png), linear-gradient(to bottom, black , #0B212B, black);
-    border-bottom: 1px solid #1A546E;
+    height: 600px;
+    background-image: url(../images/banner.png), linear-gradient(to bottom, rgba(0, 0, 0, 0.6) , rgba(49,168,221,.2), rgba(0, 0, 0, 0.6));
+    border-bottom: 1px solid #33a8db80;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -26,14 +24,18 @@ html, body {
     margin: 50px auto;
 }
 .banner > .banner-content > .logo {
-    
-    width: 214px;
-    height: 214px;
-    display: flex;
-    margin: 30px;
-    background-color: rgba(0, 0, 0, 0.253);
-    align-items: center;
-    border-radius: 300px;
+    width: 268px;
+    height: 268px;
+    margin: auto;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 16px;
+    border-radius: 50%;
+}
+.banner > .banner-content > .logo > img {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 .banner > .banner-content > h1 {
     color: #1E84C3;
